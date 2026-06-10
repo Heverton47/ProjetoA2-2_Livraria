@@ -126,6 +126,7 @@ app.MapGet("/carrinho", async (LivrariaContext banco) =>
 //CRIAR CARRINHO DE CLIENTE
 app.MapPost("/carrinho", async (Carrinho carrinho, LivrariaContext banco) =>
 {
+
     carrinho.ValorTotal = 0;
     carrinho.Itens = new List<Livro>();
 

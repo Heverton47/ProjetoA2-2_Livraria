@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace livrariaApi.Migrations
 {
     [DbContext(typeof(LivrariaContext))]
-    [Migration("20260609225659_CriarBanco")]
-    partial class CriarBanco
+    [Migration("20260610213135_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

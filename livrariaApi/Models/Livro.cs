@@ -12,6 +12,8 @@ public class Livro
 
     public decimal Preco { get; set; }
 
+    public int? CarrinhoId { get; set; }
+
     public Livro(){
     }
 }
